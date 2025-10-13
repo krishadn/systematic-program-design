@@ -40,9 +40,12 @@ For this project, I created 2 compound data:
 
 **Designed function**
 
+To design the functions, I first laid out the purpose and stub. And then I listed enough examples that covers usual case, edge cases, and corner cases. These examples were also used to create testing for the functions.
+![Function Design1](images/calc5.png)
+
 Aside from the big-bang functions to control the user interface, I have also created helper functions to break down tasks into independent manageable chunks, to follow the best practice that functions should only do one thing.
 
-![Function Design1](images/calc5.png)
+
 ![Function Design2](images/calc6.png)
 ![Function Design3](images/calc7.png)
 
