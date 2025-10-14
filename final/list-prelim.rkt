@@ -12,6 +12,5 @@
 
 (length L1)
 
-(last L1)
 
-
+(length empty)

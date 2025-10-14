@@ -21,7 +21,8 @@
 (define (fn-for-los los)
   (cond [(empty? los) (...)]
         [else (... (first los)    ; String
-              (fn-for-los (rest los)))]))  ; List of String  ---> Needs natural recursion
+                   (fn-for-los (rest los)))]))  ; List of String  ---> Needs natural recursion
+; also since (rest los) returns non-primitive type, we need to add a call to that type's template function
 
 
 ;; Template rule used:
@@ -33,7 +34,7 @@
 
 ;; ListOfString -> Boolean
 ;; produces true if "Cavite" is in ListOfString, false otherwise
-;(define (is-in? str los) true) ;stub
+;(define (is-in? los) true) ;stub
 
 (check-expect (is-in? LOS1) false)
 (check-expect (is-in? LOS3) true)
