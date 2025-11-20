@@ -4,7 +4,7 @@ This repository includes all the programs I have developed using BSL (an introdu
 
 I took this course as part of [OSSU curriculum for Computer Science](https://github.com/ossu/computer-science).
 
-## Cool Stuff I did:
+## Cool stuff I did:
 
 ### 1. Simple Calculator
 
